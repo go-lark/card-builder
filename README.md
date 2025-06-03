@@ -94,3 +94,12 @@ msg := lark.NewMsgBuffer(lark.MsgInteractive)
 om := msg.BindEmail("youremail@example.com").Card(card.String()).Build()
 resp, err := bot.PostMessage(om)
 ```
+
+## Contributing
+
+- If you think you've found a bug with go-lark, please file an issue.
+- Pull Request is welcomed.
+
+## License
+
+Copyright (c) David Zhang, 2025. Licensed under MIT License.
